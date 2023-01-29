@@ -1,0 +1,164 @@
+.nameWrap {
+  padding: 60px 10px 50px 70px;
+  text-align: left;
+  width: 44%;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.intro {
+  margin-bottom: 10px;
+  color: #D7D7D7;
+}
+
+.photoWrap {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photoColumn {
+  width: 120px;
+  margin-left: 15px;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo {
+  width: 120px;
+  height: 90px;
+  margin-top: 10px;
+  border-radius: 5px;
+  animation:move 18s linear infinite;
+}
+.photo1 {
+  width: 120px;
+  height: 90px;
+  margin-top: 10px;
+  border-radius: 5px;
+  animation:move 15s linear infinite;
+}
+.photo2 {
+  width: 120px;
+  height: 90px;
+  margin-top: 10px;
+  border-radius: 5px;
+  animation:move 20s linear infinite;
+}
+
+@keyframes move {
+  100% {
+      transform: translateY(-422px);
+  }
+}
+
+.upLinear {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.downLinear {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.title {
+ width: 100%;
+ padding: 50px 0 30px 60px;
+ text-align: left;
+ font-size: 18px;
+ color: #F2F2F2 ;
+}
+
+.skillWrap {
+  padding: 0 40px 40px 50px;
+}
+
+.skill1 {
+  width: 120px;
+  height: 25px;
+  background-color: #618066;
+  margin: 10px 13px;
+  border-radius: 1px;
+  padding-top: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill2 {
+  width: 120px;
+  height: 25px;
+  background-color: #9F6878;
+  margin: 10px 13px;
+  border-radius: 1px;
+  padding-top: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill3 {
+  width: 120px;
+  height: 25px;
+  background-color: #B8A571;
+  margin: 10px 13px;
+  border-radius: 1px;
+  padding-top: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.experienceWrap {
+  padding: 0 0 40px 60px;
+}
+
+.time {
+  width: 12%;
+  margin-top: 2px;
+  text-align: left;
+  font-size: 14px;
+  color: #AAAAAA;
+}
+
+
+.timelineWrap {
+  width: 18px;
+  margin: 0 60px 20px 20px;
+}
+
+.dot {
+  width: 18px;
+}
+
+.vertical {
+  width: 45%;
+  height: 100%;
+  border-right: #7F7F7F solid 1.5px;
+}
+
+.exTitle {
+  font-size: 18px;
+  font-style: oblique;
+  color: white;
+  margin: 0 0 20px -5px;
+}
+
+.projTitle {
+  margin: 30px 0 10px 0;
+}
+
+.projDesc {
+  margin: 4px 0;
+  color: #AAAAAA;
+  font-weight: 500;
+}
