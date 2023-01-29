@@ -28,7 +28,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Resume />} />
       </Routes>
-      {/* <div className='routeContainer'>{aa}</div> */}
       <img src={bottomImg} alt="" className="bottomImg" />
     </div>
   );
